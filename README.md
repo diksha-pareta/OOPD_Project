@@ -51,8 +51,8 @@ Follow the prompts to enter:
 
 The WiFi version (4, 5, or 6).
 The number of users communicating with the AP.
-Implementation Details
-WiFi 4 Simulation
+## Implementation Details
+**WiFi 4 Simulation**
 Process:
 A user sniffs the channel.
 If the channel is free, the user transmits.
@@ -64,7 +64,7 @@ Coding Rate: 5/6
 Packet Size: 1 KB
 Output: Average Latency, Maximum Latency, Throughput.
 
-WiFi 5 Simulation
+**WiFi 5 Simulation**
 Process:AP sends a broadcast packet.
 Users sequentially send channel state information (200 bytes per user).
 Users communicate in parallel using MU-MIMO for 15 ms.
@@ -75,7 +75,7 @@ Coding Rate: 5/6
 Packet Size: 1 KB
 Output: Average Latency, Maximum Latency, Throughput.
 
-WiFi 6 Simulation
+**WiFi 6 Simulation**
 Process:
 Users communicate using OFDMA.
 Sub-channels of 2 MHz, 4 MHz, or 10 MHz are used.
